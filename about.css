@@ -1,0 +1,93 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin: 0 1rem;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  .main {
+   
+    display:flex;
+    border: 10px;
+    border-color: black;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.main div {
+
+    width: 300px;
+    height: 400px;
+    background-color:#E5E1DA;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: 60px;
+    text-align: center;
+
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.circle-image {
+    width: 150px; /* Width of the circle */
+    height: 150px; /* Height of the circle */
+    border-radius: 50%; /* Makes the image a circle */
+    overflow: hidden; /* Ensures the image stays within the circle */
+  }
+
+  .circle-image img {
+    width: 150px; /* Makes the image fill the container */
+    height: 150px; /* Ensures the image covers the container */
+    object-fit: cover; /* Ensures the image doesn’t get stretched */
+    border-radius: 50%;
+  }
+  p
+{
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    overflow: hidden;
+
+    
+}
+body{
+    background-color: #B5CFB7;
+}

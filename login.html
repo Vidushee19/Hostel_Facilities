@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MENU VOTING SYSTEM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="H">WELCOME TO MENU VOTING SYSTEM</h1>
+  <div class="box">
+    <h2 class="H2">LOGIN</h2>
+    <form onsubmit="redirectToPage(event)">
+      <div class="user">
+        <input type="text" placeholder="NAME" required>
+      </div>
+      <div class="user">
+        <input type="text" placeholder="ROLL NO" required>
+      </div>
+      <div class="user">
+        <input type="text" placeholder="ROOM NO" required>
+      </div>
+      <button type="submit" class="login button">LOGIN</button>
+    </form>
+  </div>
+  <script>
+    function redirectToPage(event) {
+      event.preventDefault(); // Prevent form submission
+      window.location.href = "main.html"; // Redirect to main.html
+    }
+  </script>
+</body>
+</html>
