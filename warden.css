@@ -1,3 +1,45 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin: 0 1rem;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+.navbar a:hover{
+    color:rgb(244, 176, 87);
+  }
+  .navbar i:hover{
+     color:rgb(244, 176, 87);
+  }
+
 .floor{
     padding: 20px;
     background-color: burlywood;
