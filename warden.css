@@ -41,12 +41,17 @@
   }
 
 .floor{
-    padding: 20px;
-    background-color: burlywood;
+    padding: 150px;
+    background-color: rgba(241, 192, 192, 0.5);
+    color: white;
     text-align: center;
     justify-content: center;
     display: flex;
-    border-radius: 5pm;
+    border-radius: 20pm;
+    box-sizing: border-box;
+    margin-top: 20;
+     /*opacity: 0.5; */
+    
 
 }
 .main{
@@ -54,4 +59,7 @@
     justify-content: center;
     display: flex;
     flex-direction: column; 
+    margin-top: 50pm;
+    padding-top: 20;
+    background-image: url('Copy\ of\ Untitled.png');
 }
