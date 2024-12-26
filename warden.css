@@ -1,0 +1,15 @@
+.floor{
+    padding: 20px;
+    background-color: burlywood;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5pm;
+
+}
+.main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
+}
